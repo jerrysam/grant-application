@@ -1,83 +1,90 @@
-# 📝 Name of your Project
+# 📝 Lovable for Polkadot
 
 ## 🌟 Project Overview
 
-Please provide the following:
+Polkadot is the most resillient and flexible chain out there, so let's make it the default choice by making it easy for Web3 builders to Ship!
 
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but big bonus points): [1-min video pitch](https://www.ycombinator.com/video/)
+This project is to create a Lovable clone for web3 creators to type in an app they want to create and have AI automatically build it in the correct way for the Polkadot ecosystem.
+
+This is a great way to go a step further than an LLM that's fine-tuned / RAGging docs, and help developers apply the tech to their idea. By making it easy, more projects will be started, and founders can spend less energy building and more energy commercialising.
+
+We're passionate because we believe AI software builders are the future, and want to build this for the leading technology in the ecosystem. 
+
 
 ### 🔍 Project Details
 
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
+Technical approach:
+ - Fork Bolt.diy (an open source Lovable clone)
+ - Edit the order of prompts and LLMs being called to work well for Polkadot
+ - Add boilerplate projects for each of the common project types on Polkadot (super lightweight for LLM to work with)
+ - Test how well it builds the common project types, and keep editing the prompts to do a great job.
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+To make this possible:
+ - Learn how to build on the Polkadot chain
+ - Learn what the common project types are
+ - Build each of the common project types (e.g. games, defi, AI, tokens, marketplaces), then make a super lightweight version of each
+ - Add documentation for the LLM to know how to customise them for the users' specific app idea.
+
 
 ### 🧩 Ecosystem Fit
 
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
+Once stable, this project can appear in Polkadot docs and enable all Polkadot developers to get started quickly with Polkadot.
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Polkadot ecosystem?
-  - If so, how is your project different?
-  - If not, why might such a project not exist yet?
-
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
 
 ## 👥 Team
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
-- **Website:** Your website, GitHub org, blog, or similar
+- **Team Name:** PolkaShip
+- **Contact Name:** Jerome Minney
+- **Contact Email:** jeromeminney@gmail.com
+- **Website:** http://github.com/jerrysam
 
 ### Team members
 
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
+ - Tom Bizzell
+ - Mofi Onanuga
 
 #### LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+ - https://www.linkedin.com/in/jeromeminney
+ - https://www.linkedin.com/in/tom-bizzell
+ - https://www.linkedin.com/in/mofiyin-onanuga-ba4020188/
 
 ### Team Code Repos
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+- App builder: https://github.com/jerrysam/lovable-for-polkadot
+- Freight app (started with an App builder: https://github.com/TomBizzell/freight-futures
 
 Please also provide the GitHub accounts of all team members:
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+ - http://github.com/jerrysam
 
 ### Team's experience
 
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+ - Worked with DeepMind
+ - Worked with Faculty AI (Europe's largest Applied AI consultancy and OpenAI's first implementation partner)
+ - Worked with Unkillable, where I helped build 8 different growth teams for ~Series A stage startups
+ - Founded a company, raised 6 figures, built a product, sold my stake as part of a technology acquisition strategy towards Visa.
 
 ## 📊 Development Status
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+We have a Lovable clone that can build a Polkadot app, but it doesn't consistently work. We need to find the failure modes and adapt the LLMs to consistently work.
+Then we need to do the work in the Project Details section.
 
 ## 📅 Development Roadmap
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
+Milestone 1: Stable build of a Polkadot Dapp
+ - AI can produce a stable build on the first shot
+ - Grant application team can recieve a link, enter a prompt, and see a rendered app on the first shot (works for one type of app). They can keep prompting to edit, fix, and extend.
 
-**Important notes:**
-- Each milestone is capped at **$5,000 USD**
-- Milestones must be delivered within **3 months** of approval
-- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
-- You will only receive payment after successful milestone delivery
+Milestone 2: Multiple projects supported
+ - Multiple common Polkadot project types supported (not just one)
+ - Grant application team can prompt-generate multiple project types.
+
+Milestone 3: Extensibility for Polkadot ecosystem documented
+ - Publish article, share it with the Polkadot ecosystem, find out what they want and where the project should go from here.
+ - Documented process for training the LLM to build further projects, so Polkadot team or ourselves can add project types easily
+ - Unit testing, refactoring, prepare for extensibility
+ - Grant application team can see Docs, Tests, Article, and Notes on what external people want to see.
 
 ### Overview
 
@@ -89,13 +96,13 @@ This section should break the development roadmap down into milestones and deliv
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
+| 0a. | License: MIT |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can contribute to the open source project |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+| 1. | Stable builds | Users can prompt the AI to build a Polkadot Dapp |
+| 2. | Mulitple projects | Multiple project types will be supported |
+| 3. | Extensibility | Docuentation and refactoring to make it easy for the project to be taken beyond the current vision |
 
 ### 💰 Budget Breakdown
 
@@ -103,24 +110,21 @@ Please provide a breakdown of your budget by milestone:
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
+| 1 | Stable builds | $5,000 | 1.5 months |
+| 2 | Multiple projects | $4,000 | 1 months |
+| 3 | Extensible | $1,000 | 0.5 months |
 | **Total** | | **$10,000** | **3 months** |
 
 ## 🔮 Future Plans
 
-Please include:
+We hope this project becomes the default way for people who are unfamiliar with Polkadot code to start a Polkadot project.
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+We intend to keep the LLM instructions and boilerplates up-to-date (or synced with the right documentation), so that it continues to build useful Dapps.
+
+We will also seek grant and VC funding to expand the business to more project types, reducing the technical barrier to building Web3 projects!
+
 
 ## ℹ️ Additional Information
 
-Here you can add any additional information that you think is relevant to this application, such as:
-
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
-
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+We've been interested in Freight and Lovable for X before this weekend, but this idea really came together during the hackathon weekend.
+ - No other funding, no other team contributions
