@@ -99,28 +99,58 @@ Please also provide the GitHub accounts of all team members:
 ## 📅 Development Roadmap
 
 **Milestone 1:** PolkaBot IDE / Frontend
- - Chat UI, Website renderer, In-browser filestorage, Runtime environment, Build/compilation tools: All working and connected.
+ - Create (and understand) the frontend components and UI required to build dapps in the browser.
  - Grant team/User can open a live app and prompt for code, edit the code editor, prompt for bash commands, and see the rendered website (output).
+ - KPI: Frontend shown to 3 Polkadot developers and feedback gathered for usability
+
+| item | days | rate |
+|------|------|------|
+| Chat UI | 3 | $250 |
+| Website renderer | 2 | $250 |
+| In-browser filestorage | 2 | $250 |
+| Runtime environment | 3 | $250 |
+| Build/compilation tools | 2 | $250 |
+| Integration of the above | 2 | $250 |
+| Usability research and tweaks | 2 | $250 |
+| **Total** | 16 | $4000 |
+
 
 **Milestone 2:** Polkadot app generation supported
- - Prompts can now generate a working Polkadot app with high reliability.
+ - Prompts can now generate a working Polkadot app with high reliability, targeting Polkadot Hub
+ - How to demo: Users can generate apps and see that the code interfaces with polkadot hub and assets can be managed on Polkadot Hub.
  - Grant team/User can enter a prompt and receive a rendered app, with the ability to refine via follow-up prompts. Works well for one app type.
+ - KPI: Product used by 3 developers, and final app / code feedback gathered for usability
 
-**Milestone 3:** Multiple Polkadot project types
- - Add support for several common Polkadot app categories (e.g. DeFi, DAOs, marketplaces).
- - Grant team/User can generate multiple app types via prompt, each scaffolded with relevant architecture and Polkadot-specific logic.
+| item | days | rate |
+|------|------|------|
+| Learn to build on Polkadot, and how to teach LLMs to do it | 3 | $250 |
+| Example code snippets for LLM to recreate this | 3 | $250 |
+| Optimise planning LLM | 2 | $250 |
+| Optimise agentic systems | 8 | $250 |
+| Build eval sets (testing but for LLMs) | 2 | $250 |
+| Usability research and tweaks | 2 | $250 |
+| **Total** | 20 | $5,000
 
-**Milestone 4:** Extensibility and Documentation
+
+**Milestone 3:** Extensibility and Documentation
  - Publish a public article and share results with the Polkadot developer community.
  - Document how to expand the AI’s capabilities to support more project types.
  - Implement unit testing, refactor codebase, and enable community contribution.
- - Deliver comprehensive documentation, testing guide, and notes for future contributors.
+ - KPI: Deliver comprehensive documentation, testing guide, and notes for future contributors.
+
+| item | days | rate |
+|------|------|------|
+| Article | 1 | $250 |
+| Implement Testing, refactor | 2 | $250 |
+| Documentation on expanding capabilities | 1 | $250 |
+| Total | 4 | $1000 |
+
 
 ### Overview
 
 - **Estimated Duration:** 3mo
 - **Full-Time Equivalent (FTE):**  1.5 FTE
-- **Total Costs:** $15,000
+- **Total Costs:** $10,000
 
 
 | Number | Deliverable | Specification |
@@ -130,9 +160,8 @@ Please also provide the GitHub accounts of all team members:
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
 | 1. | IDE / Frontend | Users can prompt for code, bash, and see the rendered app |
-| 2. | Stable builds | Users can prompt for a Polkadot Dapp |
-| 3. | Multiple projects | Users can prompt for multiple common project types |
-| 4. | Extensibility | Documentation and refactoring to make it easy for the project to be taken beyond the current vision |
+| 2. | Stable builds | Users can prompt for a Polkadot Dapp, optimised for one type of project|
+| 3. | Extensibility | Documentation and refactoring to make it easy for the project to be taken beyond the current vision |
 
 ### 💰 Budget Breakdown
 
@@ -140,14 +169,15 @@ Please provide a breakdown of your budget by milestone:
 
 | Milestone | Deliverables | Cost (USD) | Estimated Completion |
 | --- | --- | --- | --- |
-| 1 | IDE / Frontend | $4,000 | 1 months |
-| 2 | Stable builds | $5,000 | 1 months |
-| 3 | Multiple projects | $5,000 | 1 months |
-| 4 | Extensible | $1,000 | 0.5 months |
-| **Total** | | **$15,000** | **3.5 months** |
+| 1 | IDE / Frontend build environment | $4,000 | 1 months |
+| 2 | Stable builds Dapp build | $5,000 | 1.5 months |
+| 3 | Extensibility | $1,000 | 0.5 months |
+| **Total** | | **$10,000** | **3 months** |
 
 ## 🔮 Future Plans
 
+ - Show the project to many Polkadot developers to prioritise future efforts towards making this the preferred way all Polkadot developers start new projects
+ - Extend to support multiple Dapp types
  - Position Polkabot as the default starting point for anyone building on Polkadot, especially non-technical users.
  - Continuously update LLM prompts and boilerplates to reflect the latest Polkadot standards and best practices.
  - Expand support for additional app categories and advanced features through new templates and agent capabilities.
